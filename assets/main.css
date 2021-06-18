@@ -33,7 +33,7 @@ body{
     font-family:'Roboto',sans-serif;
     font-size:1em;
     line-height:1.5em;
-    margin: 40px auto;
+    margin: 20px auto;
     width: 1000px;
 }
 
@@ -76,12 +76,13 @@ th,td{
     /*border: 1px solid black;*/
 }
 
-.c-list {
-	list-style:none; 
-	margin:12px auto 12px auto; 
-	padding:0px; 
-	width:800px; 
-	text-align:left;
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 /* Website Banner */
