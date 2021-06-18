@@ -10,8 +10,11 @@
    <url>
        <loc>WEBSITE/program</loc>
    </url>
-   <url>
+   <!--<url>
        <loc>WEBSITE/directions</loc>
    </url>
+   <url>
+       <loc>WEBSITE/cfa</loc>
+   </url>-->
 </urlset> 
 
