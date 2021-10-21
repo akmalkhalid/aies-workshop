@@ -166,16 +166,16 @@ div.explanation {
 
 div.notice {
     font-size: 1.0rem;
+	color: black;
     position: relative;
     margin: 0 0 1.5rem;
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: 0 0;
-    background: rgba(0, 128, 0, 0.3);
+    background: #E6E6FA;
     border-radius: 8px;
     overflow: hidden;
     padding: 1rem 1rem 1rem 5rem;
-	opacity:0.3;
 }
 
 .blink_me {
@@ -245,7 +245,7 @@ div.notice {
 }
 
 .styled-table thead tr {
-    background-color: #009879;
+    background-color: #87CEFA;
     color: #ffffff;
     text-align: left;
 }
@@ -265,7 +265,7 @@ div.notice {
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #87CEFA;
 }
 
 .styled-table tbody tr.active-row {
@@ -358,4 +358,32 @@ div.notice {
 
 .wrapper .right .info_data .data ul li{
   font-size: 14px;
+}
+
+
+
+/* custom buttom */
+
+.button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
 }
