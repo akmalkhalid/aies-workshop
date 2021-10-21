@@ -164,6 +164,20 @@ div.explanation {
     padding: 1rem 1rem 1rem 5rem;
 }
 
+div.notice {
+    font-size: 1.0rem;
+    position: relative;
+    margin: 0 0 1.5rem;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background: rgba(0, 128, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 1rem 1rem 1rem 5rem;
+	opacity:0.3;
+}
+
 .blink_me {
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 1s;
